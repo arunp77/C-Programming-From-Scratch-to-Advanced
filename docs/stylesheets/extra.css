@@ -1,0 +1,20 @@
+/* Header color */
+.md-header {
+    background-color: #1f2937;
+}
+
+/* Footer styling */
+.md-footer {
+    background-color: #111;
+    color: #ccc;
+}
+
+/* Improve content width */
+.md-grid {
+    max-width: 1200px;
+}
+
+/* Headings */
+h1, h2, h3 {
+    font-weight: 600;
+}
