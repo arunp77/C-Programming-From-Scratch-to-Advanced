@@ -2,6 +2,13 @@
 
 Welcome! This is a complete tutorial on the **C programming language**, written for absolute beginners who have never written a line of code before, and taken all the way through to advanced, professional-level C.
 
+!!! tip "Choose your language"
+
+    Prefer reading in another language?
+
+    - [Continue in English](index.md)
+    - [हिंदी में पढ़ें](hi/index.md)
+
 ---
 
 ## 📘 Who this is for

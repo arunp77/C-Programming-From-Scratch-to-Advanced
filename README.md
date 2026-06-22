@@ -6,6 +6,17 @@ This repository is structured as an [MkDocs](https://www.mkdocs.org/) site (usin
 
 ---
 
+## 🌐 Language versions
+
+The tutorial now has a language entry point for learners who prefer English or हिंदी. The C code remains in standard English syntax, while explanations can be localized.
+
+- English: `docs/index.md`
+- हिंदी: `docs/hi/index.md`
+
+Hindi translated chapters are available for Chapter 0 through Chapter 20. Continue translating appendices using the same style: keep technical words like `variable`, `function`, `array`, `pointer`, `compiler`, and `memory` in English, then explain them in Hindi.
+
+---
+
 ## 📖 What's inside
 
 - **Getting Started** — what programming is, what C is, installing a compiler and editor, writing and compiling your first program.
