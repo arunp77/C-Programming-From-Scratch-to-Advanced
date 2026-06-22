@@ -542,13 +542,14 @@ Subtracting two pointers that point into the *same array* yields the number of e
 
 ```c
 #include <stdio.h>
+#include <stddef.h>
 
 int main(void) {
     int values[] = { 10, 20, 30, 40, 50 };
     int *start = &values[0];
     int *end = &values[4];
 
-    ptrdiff_t distance = end - start; /* ptrdiff_t: from <stddef.h>, via <stdio.h> on most systems */
+    ptrdiff_t distance = end - start; /* ptrdiff_t is declared in <stddef.h> */
     printf("Distance from start to end: %ld elements\n", (long)distance);
     printf("Byte distance would be:     %ld bytes\n",
            (long)distance * (long)sizeof(int));
