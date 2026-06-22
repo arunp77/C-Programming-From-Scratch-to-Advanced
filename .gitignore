@@ -1,4 +1,11 @@
 .venv/
 site/
+site
 __pycache__/
 *.o
+
+.venv/* 
+.env 
+.idea/* 
+.venv 
+.claude 
