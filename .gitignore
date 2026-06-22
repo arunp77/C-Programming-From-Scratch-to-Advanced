@@ -1,2 +1,4 @@
+.venv/
 site/
-deployment_guidline.md
+__pycache__/
+*.o

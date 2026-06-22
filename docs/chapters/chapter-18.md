@@ -14,6 +14,8 @@ This is not an algorithms course, so Big-O notes are kept brief — one line or 
 
 A singly linked list is a chain of nodes, where each node holds a piece of data and a pointer to the next node in the chain. Unlike an array, a linked list's nodes are not contiguous in memory and the list can grow one node at a time without ever needing to "resize" anything.
 
+The node type itself (shown below as a type-definition fragment, not a standalone program — the complete, runnable program follows in the next section) is just a struct containing the data and a self-referential pointer:
+
 ```c
 struct Node {
     int data;
@@ -584,7 +586,7 @@ dequeued: 30
 
 ## Binary Trees and Binary Search Trees
 
-A binary tree node holds data plus pointers to (at most) two children, conventionally called `left` and `right`.
+A binary tree node holds data plus pointers to (at most) two children, conventionally called `left` and `right`. As with the linked-list node above, this is a type-definition fragment shown in isolation to introduce the shape of the type; the complete, runnable program follows below.
 
 ```c
 struct TreeNode {
